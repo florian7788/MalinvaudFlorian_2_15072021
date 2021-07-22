@@ -1,0 +1,22 @@
+*
+{
+    font-family: Raleway, sans-serif;
+}
+header
+{
+    color:#0065FC;
+}
+h1
+{ 
+    text-align: left;
+}
+ul
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+#fas fa-search
+{
+    background-color:#0065FC;
+}
