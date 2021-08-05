@@ -1,22 +1,77 @@
+/* GENERAL */
 *
+{
+   
+}
+body
 {
     font-family: Raleway, sans-serif;
 }
+h2
+{
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* HEADER */
+
 header
 {
-    color:#0065FC;
+    display: flex;
+    justify-content: space-between;
 }
-h1
-{ 
-    text-align: left;
+nav
+{
+    
 }
 ul
 {
-    display: flex;
-    justify-content: flex-end;
+   
+}
+li
+{
+    list-style: none;
+    padding: 15px;
+   
+}
+#logo
+{
+   height: 10px;
+   width: 60px;
+}
+/* RECHERCHE */
+
+
+/* POPULAIRES */
+#Populaires
+{
+    border: 1px solid black;
+    width: 600px;
+}
+.pop
+{
+    
+}
+.fas fa-chart-line
+{
     flex-direction: row;
 }
-#fas fa-search
+/* FOOTER */
+footer
 {
-    background-color:#0065FC;
+   
+}
+
+
+
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
 }
