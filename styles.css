@@ -36,21 +36,19 @@ header div{
     flex-direction: row-reverse;
 }
 header div button{
-    color:black;
+    color: #0065FC;
     flex-direction: row-reverse;
     background: none;
     border: none;
 }
-header div button :hover{
-    color: #0065FC;
-}
 header nav{
     margin-top: 6px;
-    padding-right: 16px;
+    padding-right: 15px;   
 }
 header nav a{
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 15px;
+    color: black;
 }
 
 /* RECHERCHE */
@@ -58,27 +56,30 @@ header nav a{
     
 }
 #Recherche div h1{
-    padding: 6px;
+    padding-top: 6px;
 }
 #Recherche div p{
     padding-top: 6px;
 }
-#Recherche div form{    
+.form{    
     display: flex;
-    border-radius: 6px;
     padding-top: 10px;
 }
-#Recherche div form .fas fa-map-marker-alt{
-    width: 30px;
-    height: auto;
+.fa-map-marker-alt{
     background-color: #F2F2F2;
+    border: 1x solid white;
+    border-radius: 5px 0px 0px 5px;
+    width: 30px;
+    height: 30px;
+    padding: 9px;
 }
 #Recherche div form input{
-    
+    border: none;
 }
 .rechercher{
     background-color:#0065FC;
     color: white;
+    border-radius: 0px 5px 5px 0px;
 }
 .loupe{
 
@@ -91,17 +92,15 @@ header nav a{
 .filtres h3{
 
 }
-.button{
-    padding-left: 20px;
-}
 .info{
     padding-top: 15px;
 }
 /* MAIN */
 main{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: flex-end;
     padding-top: 10px;
 }
 /* POPULAIRES */
@@ -111,28 +110,15 @@ main{
     border-radius: 15px;
     background-color: #F2F2F2;
     width: 30%;
-    max-width:325px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 30px;
 }
-.plus{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 25px;
-    width: 300px;
-}
-#Populaires div h3{
-    
-}
-#Populaires div i{
-    
-}
-#Populaires div p{
-    
-}
+.plus{}
+#Populaires div h3{}
+#Populaires div i{}
+#Populaires div p{}
 #Populaires div a img{
-    width: 70px;
-    height: 60px;
+    width: 130px;
+    height: 144px;
     border: 1px solid white;
     border-radius: 1px;
 }
@@ -140,13 +126,9 @@ main{
     border: 1px solid white;
     border-radius: 10px;
     background-color: white;
-    width: 300px;
-    height: 90px;
-    margin: 5px 19px;
-    display: flex;
 }
 .price{
-    flex-direction: column;
+    
 }
 
 /* HEBERGEMENTS */
@@ -156,30 +138,31 @@ main{
     border-radius: 15px;
     background-color: #F2F2F2;
     width: 70%;
-    max-width:975px;
-    margin-right: 10px;
-}
-.hotel{
-    background-color: white;
-    border-radius: 10px;
+    max-width: 900px;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+}
+.hotel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: #F2F2F2;
 }
 #Hébergements div div{
-    
+    background-color: white;
+    height: 130px;  
 }
 #Hébergements div img{
-    width: 110px;
-    height: 60px;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 238px;
+    height: 115px;
 }
-#Hébergements div h3{
-
+#Hébergements h2{
+    
 }
-#Hébergements div p{
-
-} 
+#Hébergements div h3{}
+#Hébergements div p{} 
 
 /* ACTIVITES */
 
