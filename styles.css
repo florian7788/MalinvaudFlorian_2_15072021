@@ -34,12 +34,17 @@ header{
 header div{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 header div button{
     color: #0065FC;
     flex-direction: row-reverse;
     background: none;
     border: none;
+    height: 19px;
+    font-size: 16px;
 }
 header nav{
     margin-top: 6px;
@@ -58,7 +63,7 @@ header nav a{
 #Recherche div h1{
     
 }
-#Recherche div p{
+#p1{
     padding-top: 17px;
 }
 .form{    
@@ -67,7 +72,7 @@ header nav a{
 }
 .fa-map-marker-alt{
     background-color: #F2F2F2;
-    border: 1x solid white;
+    border: 1px solid white;
     border-radius: 15px 0px 0px 15px;
     width: 50px;
     height: 50px;
@@ -159,6 +164,7 @@ main{
     background-color: #F2F2F2;
     width: 30%;
     max-width: 420px;
+    height: 625px;
     margin-left: 42px;
 }
 .plus{
@@ -202,7 +208,7 @@ main{
     border-style: none;
     background-color: #F2F2F2;
     width: 70%;
-    height: 620px;
+    height: 625px;
     max-width: 900px;
 }
 #Hébergements h2{
@@ -213,19 +219,17 @@ main{
 .hotels{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: space-around;
+   
     background-color: #F2F2F2;
     padding: 28px 40px 0px 40px;
 }
 .hotel{
     width: 33%;
-    border: 1px solid white;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
     
 }
 .hotel img{
+    border: 2px solid white;
     border-radius: 20px 20px 0px 0px;
     width: 235px;
     height: 115px;
@@ -235,6 +239,7 @@ main{
 .hotel .content{
     background-color: white;
     border-radius: 0px 0px 20px 20px;
+    width: 235px;
 }
 
 #Hébergements div h3{}
