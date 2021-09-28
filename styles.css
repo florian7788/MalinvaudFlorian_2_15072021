@@ -14,7 +14,7 @@ body{
 }
 .container{
     max-width: 1440px;
-    height: 1884px;
+    height: auto;
     margin:0rem 3rem;
 }
 .full.fas.fa-star{
@@ -49,6 +49,10 @@ header button{
 }
 header nav{
    order: 2;
+}
+header nav :hover{
+    text-decoration: overline;
+    color: blue;
 }
 header nav a{
     text-decoration: none;
@@ -150,7 +154,6 @@ main{
     border-style: none;
     background-color: #F2F2F2;
     width: 30%;
-    height: 39rem;
     margin-left: 2.5rem;
 }
 .plus{
@@ -165,24 +168,22 @@ main{
 .popu{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 26rem;
-    height: 100%;
-    margin: auto;
 }
 #Populaires a{
-    margin-bottom: 2rem;
     border: 1px solid white;
     border-radius: 10px;
     background-color: white;
+    width: 80%;
+    height: 9rem;
     display: flex;
-    width: 21rem;
-    height: 25%;
+    margin: auto;
+    margin-bottom: 2rem;
+    box-shadow: 0.5rem 0.5rem 1rem #e7e7e7;
 }
  .popu a img{
     object-fit: cover;
     object-position: center center;
-    width: 124px;
+    width: 125px;
     height: 100%;
     border: 5px solid white;
     border-radius: 0.8rem 0rem 0rem 0.8rem;
@@ -203,56 +204,49 @@ main{
     border-style: none;
     background-color: #F2F2F2;
     width: 70%;
-    height: 39rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 #Hébergements h2{
-    padding: 2rem 0rem 1.5rem 4rem;
+    padding: 2rem 0rem 1.5rem 1rem;
 }
 .hotels{
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 50rem;
-    height: 100%;
-    margin: auto;
 }   
 .hotels a{
-    width: 33%;
-    height: 7rem;
+    width: 30%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
+    flex-direction: column;
+    margin:auto;
+    margin-bottom: 2rem;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0.5rem 0.5rem 1rem #e7e7e7;
 }
 .hotels a img{
     border: 5px solid white;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     object-position: center center;
-    width: 236px;
-    height: 100%;
+    width: 100%;
+    height: 113px;
 }
 .content{
     background-color: white;
-    border-radius: 0px 0px 20px 20px;
-    width: 236px;
-    height: 5rem;
-    
+    border-radius: 0px 0px 20px 20px; 
 }
 #Hébergements h3{
-    padding: 0.2rem;
+    padding: 0.4rem;
 }
 #Hébergements .etoile{
-    padding: 0.2rem;
+    padding: 0.4rem;
 }
 #Hébergements .content p{
-   padding: 0.2rem;
+   padding: 0.4rem;
 }
 #Plus{
-    padding: 2rem 0rem 2.5rem 4rem;
+    padding: 2rem 0rem 2.5rem 1rem;
 }
 /* ACTIVITES */
 #Activites{
@@ -265,18 +259,22 @@ main{
 .activites{
     margin-top: 1.8rem;
     display: flex;
-    justify-content: space-between;
+   
 }
-.activites a{}
+.activites a{
+    margin-right: 3rem;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0rem 0rem 1rem #e7e7e7;
+}
 .activites h3{
-    padding-top: 1.3rem;
+    padding: 1rem;
 }
 .big img{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     object-position: center center;
-    width: 303px;
-    height: 100%;
+    width: 302px;
+    height: 387px;
 }
 .col{
     display: flex;
@@ -288,28 +286,28 @@ main{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     object-position: center center;
-    width: 100%;
+    width: 302px;
     height: 180px;
 }
 #iles{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     object-position: center center;
-    width: 100%;
+    width: 302px;
     height: 110px;
 }
 #dame{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     object-position: center center;
-    width: 100%;
+    width: 302px;
     height: 140px;
 }
 #parc{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
     object-position: center center;
-    width: 100%;
+    width: 302px;
     height: 150px;
 }
 
@@ -319,15 +317,22 @@ main{
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 14rem;
+    margin-top: 3.75rem;
 }
 #Footer div{    
     display: flex;
     flex-direction: column;
 }
 #Footer div h2{
+    
 }
 #Footer div a{
+    margin-bottom: 1rem;
 }
+   
 
 
 
