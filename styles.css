@@ -15,7 +15,7 @@ body{
 .container{
     max-width: 1440px;
     height: auto;
-    margin:0rem 3rem;
+    margin:0 auto;
 }
 .full.fas.fa-star{
     color: #0065FC;
@@ -25,6 +25,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 /* HEADER */
 
@@ -49,15 +50,19 @@ header button{
 }
 header nav{
    order: 2;
+   display: flex;
+   align-items: center;
 }
 header nav :hover{
-    text-decoration: overline;
-    color: blue;
+    border-top: 3px solid #0065FC;
 }
 header nav a{
     text-decoration: none;
     color: black;
-    padding-right: 3rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 /* RECHERCHE */
@@ -74,11 +79,10 @@ header nav a{
 }
 .geo{
     border: none;
-    border: 1px solid white;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
-    width: 3rem;
-    height: 3rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 .fa-map-marker-alt{
     display: flex;
@@ -94,6 +98,7 @@ header nav a{
     color: white;
     border-radius: 0px 15px 15px 0px;
     padding: 1rem;
+    border: none;
 }
 .fas.fa-search{
     display: none;
@@ -102,6 +107,9 @@ header nav a{
     display: flex;
     align-items: center;
     padding-top: 1rem;
+}
+.filtres :hover{
+    background-color: blueviolet;
 }
 .filtres h3{
     padding-right: 1rem;
@@ -129,7 +137,7 @@ header nav a{
     color:#0065FC;
     width: 1.5rem;
     height: 1.5rem;
-    border: 1px solid #909090;
+    border: 1px solid #F2F2F2;
     border-radius: 100%;
     font-size: 0.8rem;
     display: flex;
@@ -138,6 +146,7 @@ header nav a{
 }
 .info p{
     padding-left: 1rem;
+    color: black;
 }
 /* MAIN */
 main{
@@ -188,12 +197,20 @@ main{
     border: 5px solid white;
     border-radius: 0.8rem 0rem 0rem 0.8rem;
 }
-.price{}
+.price{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.price h3{
+   
+}
 .price p{
     margin-top: 1rem;
+    flex-grow: 1;
 }
 .price .etoile{
-    margin-top: 3rem;
+    
 }
 
 /* HEBERGEMENTS */
@@ -259,12 +276,12 @@ main{
 .activites{
     margin-top: 1.8rem;
     display: flex;
-   
+    justify-content: space-between;
 }
 .activites a{
-    margin-right: 3rem;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
     box-shadow: 0rem 0rem 1rem #e7e7e7;
+    justify-content: center;
 }
 .activites h3{
     padding: 1rem;
@@ -313,11 +330,8 @@ main{
 
 /* FOOTER */
 #Footer{
-    border: 1px solid black;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
     height: 14rem;
     margin-top: 3.75rem;
@@ -325,24 +339,11 @@ main{
 #Footer div{    
     display: flex;
     flex-direction: column;
+    margin: 2.5rem 13rem 2.5rem 2.5rem;
 }
 #Footer div h2{
-    
+    margin-bottom: 1.5rem;
 }
-#Footer div a{
-    margin-bottom: 1rem;
-}
-   
-
-
-
-
-
-
-@media all and (max-width: 1024px)
-{
-    #bloc_page
-    {
-        width: auto;
-    }
+#Footer div a{  
+    margin-bottom: 1rem; 
 }
