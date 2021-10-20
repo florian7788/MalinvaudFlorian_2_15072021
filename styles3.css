@@ -1,0 +1,66 @@
+@media screen and (min-width: 481px) and (max-width: 1023px) 
+{
+    header{
+        width: 100%;
+        margin-left: 3rem;
+    }
+    header a{
+        flex-grow: 0;
+        margin-right: 6rem;
+    }
+    #Recherche{
+        margin-left: 3rem;
+    }
+    main{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #Populaires{
+        width: 90%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    #Hébergements{
+        width: 90%;
+    }
+    #Activites{
+        margin-bottom: 2rem;
+    }
+    #Activites h2{
+        padding-left: 3rem;
+    }
+    .activites{
+        flex-direction: column;
+        padding: 0rem 3rem;
+    }
+    .activites a{
+        width: 100%;
+        margin: 1rem auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #Activites img{
+        border: 5px solid white;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 113px;
+    }
+    footer{
+        width: 100%;
+    }
+    #Footer{
+        width: 93%;
+    }
+    #Footer div{
+        margin: auto;
+    }
+
+
+
+
+
+
+
+}

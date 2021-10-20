@@ -8,9 +8,11 @@
     header a{
         width: auto;
         flex-grow: 0;
+        margin: 0 2.5rem;
     }
     header button{
         order: 2;
+        margin: 0 2.5rem;
     }
     header nav{
         order: 3;
@@ -67,13 +69,20 @@
         flex-direction: column;
         background-color: white;
     }
+    #Hébergements h2{
+        padding-left: 3rem;
+    }
     .hotels{
         flex-direction: column;
         background-color: white;
+        padding: 0rem 3rem
     }
     .hotels a{
         width: 100%;
         flex-direction: column;
+    }
+    #Plus{
+        padding-left: 3rem;
     }
     #Activites{
         flex-wrap: wrap;
@@ -81,13 +90,15 @@
     }
     #Activites h2{
         margin-top: 0rem;
+        padding-left: 3rem;
     }
     .activites{
         flex-direction: column;
+        padding: 0rem 3rem;
     }
     .activites a{
         width: 100%;
-        margin: 01rem auto;
+        margin: 1rem auto;
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -102,5 +113,6 @@
     #Footer{
         height: auto;
         flex-direction: column;
+        width: 100%;
     }
 }
